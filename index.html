@@ -26,7 +26,7 @@
                 <input type="text" placeholder="What are you looking for today?" name="search">
                 <button type="submit"><img src="./images/Search.svg" alt="search"></button>
             </form>
-            <nav id="nav-bar">
+            <nav class="nav-bar" id="nav-bar">
                 <ul class="nav-list">
                     <li>
                         <a href="#!">PCS & TABLETS</a>
@@ -65,6 +65,88 @@
             <span>SAVE UP TO 21% ON <b>THINKPAD LAPTOPS </b>THROUGH NOVEMBER 11TH     <a href="#!">Shop Now></a></span>
         </div>
     </header>
+    <nav class="slider-container">
+        <ul class="slider">
+            <li><a href="#!">Models</a></li>
+            <li><a href="#!">Tech Specs</a></li>
+            <li><a href="#!">Features</a></li>
+            <li><a href="#!">Reviews</a></li>
+            <li><a href="#!">Compatible Accessories</a></li>
+            <li><a href="#!">Services & Support</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Models</h1>
+        <hr>
+        <section class="products-container">
+            <aside>
+                <div class="price-title-container">
+                    <h3>Price</h3>
+                    <img id="toggle-price" src="./images/icon-arrow-up.png" alt="arrow up">
+                </div>
+                <form action="#!" class="price-range">
+                    <fieldset>
+                        <input type="checkbox" name="firstRange" id="firstRange">
+                        <label for="firstRange">$800-$999.99 (2)</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="checkbox" name="secondRange" id="secondRange">
+                        <label for="secondRange">$1,000-$1,499.99 (4)</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="checkbox" name="thirdRange" id="thirdRange">
+                        <label for="thirdRange">$1,500-$1,999.99 (3)</label>
+                    </fieldset>
+                    <a href="#!">See More</a>
+                </form>
+                <hr>
+            </aside>            
+            <div class="products">
+                <header class="products-header">
+                    <h4>8 Matching results</h4>
+                    <select name="sortByPrice" id="sortByPrice">
+                        <option value="">Price Low to High</option>
+                        <option value="">Price High to Low</option>
+                    </select>
+                </header>
+                <div class="products-wrapper">
+                    <article class="product">
+                        <span class="badge">DOORBUSTER</span>
+                        <img src="./images/x1carb-8th.png" alt="product">
+                        <h3 class="title">ThinkPad X1 Carbon Gen 8</h3>
+                        <h3 class="price">$1,299.99</h3>
+                        <span class="coupon">Use eCoupon: <b>YOGAPRESALE8</b></span>
+                        <button><span>Add to Cart</span></button>
+                    </article>
+                    <article class="product no-badge">
+                        <img src="./images/thinkpad2.png" alt="product">
+                        <h3 class="title">ThinkPad X1 Carbon Gen 8</h3>
+                        <h3 class="price">$1,299.99</h3>
+                        <span class="coupon">Use eCoupon: <b>YOGAPRESALE8</b></span>
+                        <button><span>Add to Cart</span></button>
+                    </article>
+                    <article class="product no-badge">
+                        <img src="./images/Product-top.png" alt="product">
+                        <h3 class="title">ThinkPad X1 Carbon Gen 8</h3>
+                        <h3 class="price">$1,299.99</h3>
+                        <span class="coupon">Use eCoupon: <b>YOGAPRESALE8</b></span>
+                        <button><span>Add to Cart</span></button>
+                    </article>
+                    <article class="product">
+                        <span class="badge">DOORBUSTER</span>
+                        <img src="./images/x1carb-8th.png" alt="product">
+                        <h3 class="title">ThinkPad X1 Carbon Gen 8</h3>
+                        <h3 class="price">$1,299.99</h3>
+                        <span class="coupon">Use eCoupon: <b>YOGAPRESALE8</b></span>
+                        <button><span>Add to Cart</span></button>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="hero">
+            <span><b>Marcelo Nieva </b>Web developer   <a href="https://marcelonieva.vercel.app" target="_blank">Hire Now></a></span>
+        </section>
+    </main>
     <script src="./scripts/script.js"></script>   
 </body>
 </html>
