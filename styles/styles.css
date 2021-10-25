@@ -188,18 +188,18 @@ main h1 {
     font-weight: 300;
     margin-block: 45px 6px;
 }
-.price-title-container {
+.price-header-container {
     display: flex;
     justify-content: space-between;
     margin-inline: 5px;
     margin-block: 20.5px;
 }
-.price-title-container h3{
+.price-header-container h3{
     font-size: 0.875rem;
     font-weight: bold;
     margin: 0;
 }
-.price-title-container img{
+.price-header-container img{
     height: 9px;
     transition: all 0.45s ease;
 }
